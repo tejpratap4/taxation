@@ -16,10 +16,13 @@ Assumptions
 		TaxTypes – 	GENERAL (17.5%) ,  ENTERTAIMENT(1.25 addition)
 		
 		Productname	                 TaxType
+		-------------------------------------
         "Book"	                     GENERAL
         "music cd"	                 GENERAL and ENTERTAIMENT 
         "box of tooth ache pills"	 No tax
-        "bottle of wine	General"     GENERAL
+        "bottle of wine"             GENERAL
+        "box of pins"                GENERAL
+        "chocolate snack"            GENERAL
 
 
 # What is Taxation?
