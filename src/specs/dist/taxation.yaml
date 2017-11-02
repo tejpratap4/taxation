@@ -1,0 +1,85 @@
+
+swagger: "2.0"
+info:
+  description: Taxation REST API
+  version: 1.0.0
+  title: Taxation REST API
+host: localhost:8080
+basePath: /taxation/1.0
+schemes:
+- https
+
+tags:
+- name: taxation-controller
+  description: Taxation Controller
+paths:
+  /calculate:
+    post:
+      tags:
+      - taxation-controller
+      summary: Create a Tax Calculation Record
+      description: Calculates the amount of tax owed for a purchase transaction.
+      operationId: calculate
+      consumes:
+      - application/json
+      produces:
+      - "*/*"
+      parameters:
+      - in: body
+        name: TaxCalculation
+        description: Information about the purchase and all associated details required to calculate the amount of tax owed by the customer.
+        required: true
+        schema:
+          "$ref": "#/definitions/TaxRequest"
+      responses:
+        '200':
+          description: The tax calculation completed successfully.
+          schema:
+            "$ref": "#/definitions/TaxResponse"
+        '404':
+          description: The product detail dose not exists.
+        '500':
+          description: Bad request.
+definitions:
+  TaxRequest:
+    description: The body of the request to calculate the tax.
+    type: object
+    properties:
+      purchaseItems:
+        type: "array"
+        description: A list of tax details for the tax applied to the purchase.
+        items:
+          $ref: "#/definitions/Item"
+    required: ["purchaseItems"]
+  TaxResponse:
+    description: The record that contains the results of the tax calculation.
+    type: object
+    properties:
+      taxImpacts:
+        type: "array"
+        description: A list of tax details for the tax applied to the purchase.
+        items:
+          $ref: "#/definitions/Item"
+      salesTax:
+        type: number
+        description: The amount of total sales tax applied to the purchase.
+      totalAmount:
+        type: number
+        description: The total amount inclusive of taxs on the purchase.
+    required: ["taxImpacts"]
+  
+  Item:
+    description: The details of a items purchased.
+    type: object
+    properties:
+      itemName:
+        type: string
+        description: A description of item.
+      quantity:
+        type: integer
+        description: The purchased quantity.
+      chargeAmount:
+        type: number
+        description: The amount of the purchase. The tax was calculated on this amount.
+    required: [ "itemName", "quantity", "chargeAmount"]
+  
