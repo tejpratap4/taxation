@@ -12,8 +12,7 @@ For using taxaction - tax calculation functionality we need to store the product
 
 Assumptions
 •	"Tax calculator" will only responsible for tax related calculation.
-•	Product and Tax Types mapping will be persist with our application. E.g.
-		TaxTypes – 	GENERAL (17.5%) ,  ENTERTAIMENT(1.25 addition)
+•	Product and Tax Types mapping will be persist with our application. E.g.		
 		
 		Productname	                 TaxType
 		-------------------------------------
@@ -23,7 +22,7 @@ Assumptions
         "bottle of wine"             GENERAL
         "box of pins"                GENERAL
         "chocolate snack"            GENERAL
-
+•     TaxTypes – 	GENERAL (17.5%) ,  ENTERTAIMENT(1.25 addition)
 
 # What is Taxation?
 
@@ -105,10 +104,6 @@ Check out the ```/taxation``` project.
 ```
 $ cd ~
 $ git clone --recursive https://github.com/tejpratap4/taxation.git
-  
-
-
-Build the project; this will also run tests and code-quality checks.
 
 ```
 $ cd taxation

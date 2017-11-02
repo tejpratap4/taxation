@@ -1,0 +1,28 @@
+1.25
+0
+
+	0
+
+17.50
+
+0
+c20:22:49.116 [Test worker] INFO com.sample.taxation.service.TaxationService -  Enter calculateTax
+¸20:22:49.128 [Test worker] INFO com.sample.taxation.service.TaxationService -  Output : 
+ 1 book : 34.69 
+1 music cd : 20.04 
+1 chocolate snack : 0.90
+Sales Taxes: 9.40
+Total: 55.63
+
+b20:22:49.130 [Test worker] INFO com.sample.taxation.service.TaxationService -  Exit calculateTax
+c20:22:49.133 [Test worker] INFO com.sample.taxation.service.TaxationService -  Enter calculateTax
+á20:22:49.134 [Test worker] INFO com.sample.taxation.service.TaxationService -  Output : 
+ 1 bottle of wine : 24.69 
+1 box of tooth ache pills : 4.15 
+1 box of pins : 13.25 
+1 music cd : 18.89
+Sales Taxes: 9.60
+Total: 60.98
+
+b20:22:49.134 [Test worker] INFO com.sample.taxation.service.TaxationService -  Exit calculateTax
+17.5018.75

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Taxation
+      
+server:
+  port: 8081
+

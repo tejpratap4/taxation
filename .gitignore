@@ -1,9 +1,6 @@
 #### Gradle ####
 .gradle
-build-vars.properties
-/build/
 /bin/
-/src/main/java/com/sample/taxation/payload
 /src/main/java/com/sample/taxation/controller/api
 
 # Ignore Gradle GUI config
