@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sample.taxation.domain.LineItemSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-03T00:33:03" hostname="TSYADAV-IN" time="0.091">
-  <properties/>
-  <testcase name="LineItem getters should return &quot;book&quot;, &quot;100.24&quot;, &quot;17.6&quot; and &quot;1&quot; " classname="com.sample.taxation.domain.LineItemSpec" time="0.091"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
