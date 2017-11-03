@@ -20,7 +20,7 @@ import java.util.List;
  * The record that contains the results of the tax calculation.
  */
 @ApiModel(description = "The record that contains the results of the tax calculation.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.SpringCodegen", date = "2017-11-02T20:31:48.489+05:30")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.SpringCodegen", date = "2017-11-03T06:02:54.512+05:30")
 
 public class TaxResponse   {
   private List<Item> taxImpacts = new ArrayList<Item>();

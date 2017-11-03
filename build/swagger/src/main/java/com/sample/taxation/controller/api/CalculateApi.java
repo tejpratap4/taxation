@@ -17,7 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.SpringCodegen", date = "2017-11-02T20:31:48.489+05:30")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.SpringCodegen", date = "2017-11-03T06:02:54.512+05:30")
 
 @Api(value = "calculate", description = "the calculate API")
 public interface CalculateApi {

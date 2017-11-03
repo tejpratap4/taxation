@@ -1,0 +1,19 @@
+{
+  "purchaseItems": [
+    {
+      "itemName": "book",
+      "quantity": 1,
+      "chargeAmount": 29.49
+    },
+    {
+      "itemName": "music CD",
+      "quantity": 1,
+      "chargeAmount": 15.99
+    },
+    {
+      "itemName": "chocolate snack",
+      "quantity": 1,
+      "chargeAmount": 0.75
+    }
+  ]
+}

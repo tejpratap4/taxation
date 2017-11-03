@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sample.taxation.service.TaxCalculateServiceSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-02T14:52:49" hostname="TSYADAV-IN" time="0.044">
+<testsuite name="com.sample.taxation.service.TaxCalculateServiceSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-03T00:33:04" hostname="TSYADAV-IN" time="0.022">
   <properties/>
-  <testcase name="test TaxCalculateService getProductByName() method" classname="com.sample.taxation.service.TaxCalculateServiceSpec" time="0.039"/>
+  <testcase name="test TaxCalculateService getProductByName() method" classname="com.sample.taxation.service.TaxCalculateServiceSpec" time="0.017"/>
   <testcase name="TaxCalculateService.calculateTax should calculate tax on &quot;book&quot; and &quot;100&quot; and return &quot;17.50&quot;." classname="com.sample.taxation.service.TaxCalculateServiceSpec" time="0.002"/>
-  <testcase name="TaxCalculateService.calculateTax should calculate tax on &quot;music cd&quot; and &quot;100&quot; and return &quot;18.75&quot;." classname="com.sample.taxation.service.TaxCalculateServiceSpec" time="0.0"/>
+  <testcase name="TaxCalculateService.calculateTax should calculate tax on &quot;music cd&quot; and &quot;100&quot; and return &quot;18.75&quot;." classname="com.sample.taxation.service.TaxCalculateServiceSpec" time="0.001"/>
   <system-out><![CDATA[17.5018.75]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

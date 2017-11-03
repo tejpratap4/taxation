@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sample.taxation.service.EntertenmentTaxEngineSpec" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-02T14:52:48" hostname="TSYADAV-IN" time="0.019">
+<testsuite name="com.sample.taxation.service.EntertenmentTaxEngineSpec" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-03T00:33:03" hostname="TSYADAV-IN" time="0.021">
   <properties/>
-  <testcase name="EntertainmentTaxEngine should calculate tax on &quot;com.sample.taxation.domain.Product@cf70abd&quot; and &quot;200.45&quot; and return &quot;1.25&quot;." classname="com.sample.taxation.service.EntertenmentTaxEngineSpec" time="0.017"/>
-  <testcase name="EntertainmentTaxEngine should calculate tax on &quot;com.sample.taxation.domain.Product@71471df7&quot; and &quot;100&quot; and return &quot;0&quot;." classname="com.sample.taxation.service.EntertenmentTaxEngineSpec" time="0.002"/>
+  <testcase name="EntertainmentTaxEngine should calculate tax on &quot;com.sample.taxation.domain.Product@cf70abd&quot; and &quot;200.45&quot; and return &quot;1.25&quot;." classname="com.sample.taxation.service.EntertenmentTaxEngineSpec" time="0.016"/>
+  <testcase name="EntertainmentTaxEngine should calculate tax on &quot;com.sample.taxation.domain.Product@71471df7&quot; and &quot;100&quot; and return &quot;0&quot;." classname="com.sample.taxation.service.EntertenmentTaxEngineSpec" time="0.003"/>
   <system-out><![CDATA[1.25
 0
 ]]></system-out>

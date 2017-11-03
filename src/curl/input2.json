@@ -1,0 +1,24 @@
+{
+  "purchaseItems": [
+    {
+      "itemName": "bottle of wine",
+      "quantity": 1,
+      "chargeAmount": 20.99
+    },
+    {
+      "itemName": "box of tooth ache pills",
+      "quantity": 2,
+      "chargeAmount": 4.15
+    },
+    {
+      "itemName": "box of pins",
+      "quantity": 1,
+      "chargeAmount": 11.25
+    },
+    {
+      "itemName": "music CD",
+      "quantity": 1,
+      "chargeAmount": 14.99
+    }
+  ]
+}

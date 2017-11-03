@@ -19,7 +19,7 @@ import java.util.List;
  * The body of the request to calculate the tax.
  */
 @ApiModel(description = "The body of the request to calculate the tax.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.SpringCodegen", date = "2017-11-02T20:31:48.489+05:30")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.SpringCodegen", date = "2017-11-03T06:02:54.512+05:30")
 
 public class TaxRequest   {
   private List<Item> purchaseItems = new ArrayList<Item>();
